@@ -23,6 +23,17 @@ yarn install
 yarn dev
 ```
 
+Cet exercice est à executer dans la console du navigateur :
+```
+store.getState()
+{userId: 2, user: undefined}
+store.dispatch(getUser())
+{type: 'getUser'}
+saga.js:8 User: {id: 2, name: 'Ervin Howell', username: 'Antonette', email: 'Shanna@melissa.tv', address: {…}, …}
+store.getState()
+{userId: 2, user: {…}}
+```
+
 # Auteur
 * Exercice issu du livreReact Développez le Front End de vos applications web et mobiles avec JavaScript : https://github.com/scastiel
 * Rudy TUANI : adaptation du Framework vitejs avec les dernières versions de librairies.
